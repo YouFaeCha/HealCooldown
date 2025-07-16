@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "healcooldown",
+  "version": "${version}",
+  "name": "HealCooldown",
+  "description": "Simple HealCooldown Timer (Craftm.kr)",
+  "authors": ["YouFaeCha"],
+  "contact": {
+    "discord": "dev.yfc"
+  },
+  "license": "unlicense",
+  "icon": "assets/healcooldown/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.yfc.healcooldown.HealCooldown"
+    ]
+  },
+  "mixins": [
+    "healcooldown.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

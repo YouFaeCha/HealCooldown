@@ -1,2 +1,2 @@
-# HealCooldown
-Fabric 1.20.1 HealCooldown Timer for Craftm.kr
+# HealCooldown v5.0
+# 사용 책임은 클라이언트 본인에게 있으며, 불이익이 발생해도 책임지지 않습니다.
